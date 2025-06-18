@@ -50,27 +50,8 @@
     </div>
     <div class="row">
       <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
+        <div class="layout-col col-sm-12 col-xs-12">
           <div id="formElement2" class="elq-field-style form-element-layout row">
-            <div style="text-align:left;" class="col-sm-12 col-xs-12">
-              <label class="elq-label " for="fe47021">Company/Organization Name
-              </label>
-            </div>
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="company" id="fe47021" value="" style="width:100%;">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement3" class="elq-field-style form-element-layout row">
             <div style="text-align:left;" class="col-sm-12 col-xs-12">
               <label class="elq-label " for="fe47017">Company Email Address
                 <span class="elq-required">*
@@ -93,9 +74,62 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
+          <div id="formElement3" class="elq-field-style form-element-layout row">
+            <div style="text-align:left;" class="col-sm-12 col-xs-12">
+              <label class="elq-label " for="fe47021">Company/Organization Name
+                <span class="elq-required">*
+                </span>
+              </label>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <input type="text" class="elq-item-input" name="company" id="fe47021" value="" style="width:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-6 col-xs-12">
           <div id="formElement4" class="elq-field-style form-element-layout row">
             <div style="text-align:left;" class="col-sm-12 col-xs-12">
-              <label class="elq-label " for="fe47022">Title/Job Role
+              <label class="elq-label " for="fe47067">Organization Type
+                <span class="elq-required">*
+                </span>
+              </label>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <select class="elq-item-select" id="fe47067" name="OrgType" style="width:100%;" data-value="">
+                      <option value="">-- Please Select --
+                      </option>
+                      <option value="Corporate">Corporate
+                      </option>
+                      <option value="Government">Government/Nonprofit
+                      </option>
+                      <option value="Global Academic">Academic
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-6 col-xs-12">
+          <div id="formElement5" class="elq-field-style form-element-layout row">
+            <div style="text-align:left;" class="col-sm-12 col-xs-12">
+              <label class="elq-label " for="fe47022">Job Title
               </label>
             </div>
             <div class="col-sm-12 col-xs-12">
@@ -112,7 +146,59 @@
       </div>
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement5" class="elq-field-style form-element-layout row">
+          <div id="formElement6" class="elq-field-style form-element-layout row">
+            <div style="text-align:left;" class="col-sm-12 col-xs-12">
+              <label class="elq-label " for="fe47068">Job Role
+                <span class="elq-required">*
+                </span>
+              </label>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="field-control-wrapper">
+                    <select class="elq-item-select" id="fe47068" name="cMRole1" style="width:100%;" data-value="">
+                      <option value="">-- Please Select --
+                      </option>
+                      <option value="Brad - Business Dev">Business Development
+                      </option>
+                      <option value="Seth - Corporate Scientist">Corporate Scientist
+                      </option>
+                      <option value="Christina - Executive CXO">Executive or Organization Leadership
+                      </option>
+                      <option value="Professor Fang - Faculty">Faculty, Professor, or Post Doc
+                      </option>
+                      <option value="Henry - HR or Learning Development">HR or Learning Management
+                      </option>
+                      <option value="Isaac - IT or Informatics Dir">IT or Informatics
+                      </option>
+                      <option value="Luis - Legal or Patent Agent">Legal or Patent Agent
+                      </option>
+                      <option value="Lucy - Librarian or Info Mgmt">Librarian or Information Professional
+                      </option>
+                      <option value="Robert - R&amp;D Manager">Management or Dept. Leadership
+                      </option>
+                      <option value="Pricilla - Purchasing Agent or Admin">Purchasing Agent
+                      </option>
+                      <option value="Rina - QA/QC or Reg Comp">QA/QC or Regulatory Compliance
+                      </option>
+                      <option value="Stanley - Student">Student
+                      </option>
+                      <option value="No Persona - see Title">Other
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-6 col-xs-12">
+          <div id="formElement7" class="elq-field-style form-element-layout row">
             <div style="text-align:left;" class="col-sm-12 col-xs-12">
               <label class="elq-label " for="fe47020">Country
                 <span class="elq-required">*
@@ -638,11 +724,9 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
       <div class="grid-layout-col">
-        <div class="layout-col col-sm-12 col-xs-12">
-          <div id="formElement6" class="elq-field-style form-element-layout row">
+        <div class="layout-col col-sm-6 col-xs-12">
+          <div id="formElement8" class="elq-field-style form-element-layout row">
             <div style="text-align:left;" class="col-sm-12 col-xs-12">
               <label class="elq-label " for="fe47032">State, Province, or Region
               </label>
@@ -818,16 +902,18 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-12 col-xs-12">
-          <div id="formElement7" class="elq-field-style form-element-layout row">
+          <div id="formElement9" class="elq-field-style form-element-layout row">
             <div style="text-align:left;" class="col-sm-12 col-xs-12">
-              <label class="elq-label " for="fe47033">Any questions or comments for the ACS Publications Sales team? 
+              <label class="elq-label " for="fe47033">Please share any specific services/products you're interested in, or questions for our sales team. 
+                <span class="elq-required">*
+                </span>
               </label>
             </div>
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <textarea class="elq-item-textarea" style="width:100%;" name="paragraphText" id="fe47033">
+                    <textarea class="elq-item-textarea" style="width:100%;" name="comments" id="fe47033">
                     </textarea>
                   </div>
                 </div>
@@ -840,12 +926,12 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-12 col-xs-12">
-          <div id="formElement8" class="elq-field-style form-element-layout row">
+          <div id="formElement10" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
                   <div style="text-align:left;">
-                    <h4 class="elq-heading form-element-form-text">Sign up for industry insiders and get 5 free monthly reads per industry.
+                    <h4 class="elq-heading form-element-form-text">Industry insiders and get 5 free monthly reads per industry.
                     </h4>
                   </div>
                 </div>
@@ -860,7 +946,7 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement9" class="elq-field-style form-element-layout row">
+          <div id="formElement11" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
@@ -879,7 +965,7 @@
       </div>
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement10" class="elq-field-style form-element-layout row">
+          <div id="formElement12" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
@@ -900,7 +986,7 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement11" class="elq-field-style form-element-layout row">
+          <div id="formElement13" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
@@ -919,7 +1005,7 @@
       </div>
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement12" class="elq-field-style form-element-layout row">
+          <div id="formElement14" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
@@ -940,7 +1026,7 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement13" class="elq-field-style form-element-layout row">
+          <div id="formElement15" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
@@ -959,7 +1045,7 @@
       </div>
       <div class="grid-layout-col">
         <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement14" class="elq-field-style form-element-layout row">
+          <div id="formElement16" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
@@ -971,6 +1057,29 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="grid-layout-col">
+        <div class="layout-col col-sm-12 col-xs-12">
+          <div id="formElement17" class="elq-field-style form-element-layout row">
+            <div class="col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div>
+                    <div class="single-checkbox-row row">
+                      <input type="checkbox" name="optin" id="fe47069">
+                      <label class="checkbox-aligned elq-item-label" for="fe47069">I would like to receive more information on products and services from the American Chemical Society
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-element-instruction"> (ACS Publications) via email, including Industry Insiders, in accordance with the ACS Privacy Policy.
               </div>
             </div>
           </div>
@@ -989,7 +1098,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" value="" tabindex="-1" autocomplete="off" style="width:100%;" class="elq-item-input" name="customHoneypot" id="fe47034">
+                    <input type="text" value="" tabindex="-1" autocomplete="off" style="width:100%;" class="elq-item-input" name="customHoneypot" id="fe47070">
                   </div>
                 </div>
               </div>
@@ -1001,12 +1110,12 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-12 col-xs-12">
-          <div id="formElement15" class="elq-field-style form-element-layout row">
+          <div id="formElement18" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
                   <div>
-                    <input type="Submit" class="submit-button-style " value="Sign Up" id="fe47031">
+                    <input type="Submit" class="submit-button-style " value="Submit" id="fe47031">
                   </div>
                 </div>
               </div>
@@ -1115,21 +1224,8 @@
   fe47019.add(Validate.Presence, {
     failureMessage:"This field is required"}
              );
-  var dom2 = document.querySelector('#form2655 #fe47021');
-  var fe47021 = new LiveValidation(dom2, {
-    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                  );
-  fe47021.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-    }
-    , failureMessage: "Value must not contain any URL's"}
-             );
-  fe47021.add(Validate.Length, {
-    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 100}
-             );
-  var dom3 = document.querySelector('#form2655 #fe47017');
-  var fe47017 = new LiveValidation(dom3, {
+  var dom2 = document.querySelector('#form2655 #fe47017');
+  var fe47017 = new LiveValidation(dom2, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47017.add(Validate.Format, {
@@ -1144,8 +1240,31 @@
   fe47017.add(Validate.Length, {
     tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 100}
              );
-  var dom4 = document.querySelector('#form2655 #fe47022');
-  var fe47022 = new LiveValidation(dom4, {
+  var dom3 = document.querySelector('#form2655 #fe47021');
+  var fe47021 = new LiveValidation(dom3, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                  );
+  fe47021.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+             );
+  fe47021.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+             );
+  fe47021.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 100}
+             );
+  var dom4 = document.querySelector('#form2655 #fe47067');
+  var fe47067 = new LiveValidation(dom4, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                  );
+  fe47067.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+             );
+  var dom5 = document.querySelector('#form2655 #fe47022');
+  var fe47022 = new LiveValidation(dom5, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47022.add(Validate.Custom, {
@@ -1163,19 +1282,26 @@
   fe47022.add(Validate.Length, {
     tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 100}
              );
-  var dom5 = document.querySelector('#form2655 #fe47020');
-  var fe47020 = new LiveValidation(dom5, {
+  var dom6 = document.querySelector('#form2655 #fe47068');
+  var fe47068 = new LiveValidation(dom6, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                  );
+  fe47068.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+             );
+  var dom7 = document.querySelector('#form2655 #fe47020');
+  var fe47020 = new LiveValidation(dom7, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47020.add(Validate.Presence, {
     failureMessage:"This field is required"}
              );
-  var dom6 = document.querySelector('#form2655 #fe47032');
-  var fe47032 = new LiveValidation(dom6, {
+  var dom8 = document.querySelector('#form2655 #fe47032');
+  var fe47032 = new LiveValidation(dom8, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
-  var dom7 = document.querySelector('#form2655 #fe47033');
-  var fe47033 = new LiveValidation(dom7, {
+  var dom9 = document.querySelector('#form2655 #fe47033');
+  var fe47033 = new LiveValidation(dom9, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47033.add(Validate.Custom, {
@@ -1190,8 +1316,14 @@
     }
     , failureMessage: "Value must not contain any URL's"}
              );
-  var dom9 = document.querySelector('#form2655 #fe47023');
-  var fe47023 = new LiveValidation(dom9, {
+  fe47033.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+             );
+  fe47033.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 8, maximum: 1000}
+             );
+  var dom11 = document.querySelector('#form2655 #fe47023');
+  var fe47023 = new LiveValidation(dom11, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47023.add(Validate.Custom, {
@@ -1206,8 +1338,8 @@
     }
     , failureMessage: "Value must not contain any HTML"}
              );
-  var dom10 = document.querySelector('#form2655 #fe47024');
-  var fe47024 = new LiveValidation(dom10, {
+  var dom12 = document.querySelector('#form2655 #fe47024');
+  var fe47024 = new LiveValidation(dom12, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47024.add(Validate.Custom, {
@@ -1222,8 +1354,8 @@
     }
     , failureMessage: "Value must not contain any HTML"}
              );
-  var dom11 = document.querySelector('#form2655 #fe47025');
-  var fe47025 = new LiveValidation(dom11, {
+  var dom13 = document.querySelector('#form2655 #fe47025');
+  var fe47025 = new LiveValidation(dom13, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47025.add(Validate.Custom, {
@@ -1238,8 +1370,8 @@
     }
     , failureMessage: "Value must not contain any HTML"}
              );
-  var dom12 = document.querySelector('#form2655 #fe47026');
-  var fe47026 = new LiveValidation(dom12, {
+  var dom14 = document.querySelector('#form2655 #fe47026');
+  var fe47026 = new LiveValidation(dom14, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47026.add(Validate.Custom, {
@@ -1254,8 +1386,8 @@
     }
     , failureMessage: "Value must not contain any HTML"}
              );
-  var dom13 = document.querySelector('#form2655 #fe47027');
-  var fe47027 = new LiveValidation(dom13, {
+  var dom15 = document.querySelector('#form2655 #fe47027');
+  var fe47027 = new LiveValidation(dom15, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47027.add(Validate.Custom, {
@@ -1270,8 +1402,8 @@
     }
     , failureMessage: "Value must not contain any HTML"}
              );
-  var dom14 = document.querySelector('#form2655 #fe47028');
-  var fe47028 = new LiveValidation(dom14, {
+  var dom16 = document.querySelector('#form2655 #fe47028');
+  var fe47028 = new LiveValidation(dom16, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47028.add(Validate.Custom, {
@@ -1281,6 +1413,22 @@
     , failureMessage: "Value must not contain any URL's"}
              );
   fe47028.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+             );
+  var dom17 = document.querySelector('#form2655 #fe47069');
+  var fe47069 = new LiveValidation(dom17, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                  );
+  fe47069.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+             );
+  fe47069.add(Validate.Custom, {
     against: function(value) {
       return !value.match(/(<([^>]+)>)/ig);
     }

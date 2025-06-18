@@ -488,6 +488,10 @@
   border: none;
 }
 
+#contactFormContainer h2{
+   font-size: 2.8rem;
+}
+
 #contactFormContainer.hide {
   max-height: 0;
   opacity: 0;
@@ -562,6 +566,10 @@
 }
 
 
+
+.instructions p{
+    font-size:18px;
+}
 
 .breadcrumb {
    margin-bottom: 20px;

@@ -19,13 +19,11 @@ get_header();
 
 <div id="organizationStep" class="step active">
     <div>
-        <nav class="breadcrumb">
-            <a href="#">Connect with Us >></a>
-            <span>Access Inquiry</span>
-        </nav>
-        <!-- Contact form content will be dynamically inserted here -->
+        <div class="instructions">
+         <p>Complete the form below to explore subscription options. A representative will contact you with details and answer questions you may have.</p>   
+        </div>
     </div>
-    <h2>Step 1: Please select your organization type</h2>
+    <h2>Step 1: Select your organization type</h2>
     <div class="box-container" id="myDIV">
         <div class="box" onclick="handleStep('academic')">
             <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -53,17 +51,18 @@ get_header();
         <div id="contactFormContainer"></div> <!-- Added this div to display the contact form -->
 
         <div id="contactForm1" style="display:none;">
-          <h2>Step 3: Please use the form below to contact ACS Publications for information on your institutions's access options. </h2>
+          <h2>Step 3: Use the form below for institutional subscription information. </h2>
           <?php include get_template_directory() . '/contact/access.php'; ?>
         </div>
 
         <div id="contactForm2" style="display:none;">
-          <h2>Step 2: Please use the form below to contact ACS Publications for information on your institutions's access options. </h2>
+          <h2>Step 2: Use the form below to request subscription information for your organization.
+ </h2>
           <?php include get_template_directory() . '/contact/government.php'; ?>
         </div>
 
         <div id="contactForm3" style="display:none;">
-           <h2>Step 3: Please recommend this content to your library using the form below. We'll contact the representative at your institution upon submission</h2>
+           <h2>Step 3: Use the form below for institutional subscription information.</h2>
            <?php include get_template_directory() . '/contact/student.php'; ?>
         </div>
      </div>
