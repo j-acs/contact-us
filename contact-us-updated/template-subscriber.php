@@ -17,9 +17,8 @@ get_header();
         endwhile;
         ?>
         <div class="step">
-            <div class="breadcrumb">
-                <a href="#">Connect with Us >></a>
-                <span>Subscriber Support</span>
+            <div class="instructions">
+              <p>Find the Information you need, or contact us for technical support.</p>
             </div>
             <!-- Contact form content will be dynamically inserted here -->
             <div class="box-container" id="myDIV">
