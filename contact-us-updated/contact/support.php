@@ -20,7 +20,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="firstName" id="fe31715" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="firstName" id="fe31715" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -41,7 +41,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="lastName" id="fe31716" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="lastName" id="fe31716" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -64,7 +64,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="emailAddress" id="fe31717" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="emailAddress" id="fe31717" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <select class="elq-item-select" id="fe31718" name="country" style="width:100%;" data-value="~~eloqua..type--emailfield..syntax--Country~~">
+                    <select class="elq-item-select" id="fe31718" name="country" style="width:100%;" data-value="~~eloqua..type--emailfield..syntax--Country~~" required>
                       <option value="">-- Country/Region --
                       </option>
                       <option value="United States">United States
@@ -615,7 +615,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="company" id="fe31719" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="company" id="fe31719" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -636,7 +636,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <select class="elq-item-select" id="fe31720" name="cMRole1" style="width:100%;" data-value="">
+                    <select class="elq-item-select" id="fe31720" name="cMRole1" style="width:100%;" data-value="" required>
                       <option value="">-- Please Select --
                       </option>
                       <option value="Brad - Business Dev">Business Development
@@ -688,7 +688,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <select class="elq-item-select" id="fe33036" name="Support_Reason" style="width:100%;" data-value="">
+                    <select class="elq-item-select" id="fe33036" name="Support_Reason" style="width:100%;" data-value="" required>
                       <option value="">-- Please Select --
                       </option>
                       <option value="Access Issues">Access Issues
