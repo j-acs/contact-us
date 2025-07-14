@@ -62,7 +62,7 @@ get_header();
         </div>
 
         <div id="contactForm3" style="display:none;">
-           <h2>Step 3: Use the form below for institutional subscription information.</h2>
+           <h2>Step 3: Use the form below to share your content needs.</h2>
            <?php include get_template_directory() . '/contact/student.php'; ?>
         </div>
      </div>

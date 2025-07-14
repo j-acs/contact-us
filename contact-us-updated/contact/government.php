@@ -1,5 +1,5 @@
-<form method="post" name="copyOfCHAN0222ANCIndustryInsiderForm-1744127191090" action="https://s1913652004.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form2655" class="elq-form">
-  <input value="copyOfCHAN0222ANCIndustryInsiderForm-1744127191090" type="hidden" name="elqFormName">
+ <form method="post" name="CHAN0425CXWCorpandGovtleadformforSolutions" action="https://s1913652004.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form2655" class="elq-form">
+  <input value="CHAN0425CXWCorpandGovtleadformforSolutions" type="hidden" name="elqFormName">
   <input value="1913652004" type="hidden" name="elqSiteId">
   <input value="" type="hidden" id="elqFormSubmissionToken" name="elqFormSubmissionToken">
   <input name="elqCampaignId" type="hidden">
@@ -18,7 +18,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="firstname" id="fe47018" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="firstname" id="fe47018" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="lastname" id="fe47019" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="lastname" id="fe47019" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="email" id="fe47017" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="email" id="fe47017" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" class="elq-item-input" name="company" id="fe47021" value="" style="width:100%;">
+                    <input type="text" class="elq-item-input" name="company" id="fe47021" value="" style="width:100%;" required>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <select class="elq-item-select" id="fe47067" name="OrgType" style="width:100%;" data-value="">
+                    <select class="elq-item-select" id="fe47067" name="OrgType" style="width:100%;" data-value="" required>
                       <option value="">-- Please Select --
                       </option>
                       <option value="Corporate">Corporate
@@ -157,7 +157,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <select class="elq-item-select" id="fe47068" name="cMRole1" style="width:100%;" data-value="">
+                    <select class="elq-item-select" id="fe47068" name="cMRole1" style="width:100%;" data-value="" required>
                       <option value="">-- Please Select --
                       </option>
                       <option value="Brad - Business Dev">Business Development
@@ -209,7 +209,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <select class="elq-item-select" id="fe47020" name="country" style="width:100%;" data-value="">
+                    <select class="elq-item-select" id="fe47020" name="country" style="width:100%;" data-value="" required>
                       <option value="">-- Country/Region --
                       </option>
                       <option value="United States">United States
@@ -905,8 +905,6 @@
           <div id="formElement9" class="elq-field-style form-element-layout row">
             <div style="text-align:left;" class="col-sm-12 col-xs-12">
               <label class="elq-label " for="fe47033">Please share any specific services/products you're interested in, or questions for our sales team. 
-                <span class="elq-required">*
-                </span>
               </label>
             </div>
             <div class="col-sm-12 col-xs-12">
@@ -930,156 +928,14 @@
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
-                  <div style="text-align:left;">
-                    <h4 class="elq-heading form-element-form-text">Industry insiders and get 5 free monthly reads per industry.
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <div class="form-element-instruction">By clicking sign up, I would like to receive more information on products and services from the American Chemical Society (ACS Publications) via email, in accordance with the ACS Privacy Policy
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement11" class="elq-field-style form-element-layout row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div>
-                    <div class="single-checkbox-row row">
-                      <input type="checkbox" name="singleCheckbox" id="fe47023">
-                      <label class="checkbox-aligned elq-item-label" for="fe47023">Agriculture, Food, &amp; Environment
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement12" class="elq-field-style form-element-layout row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div>
-                    <div class="single-checkbox-row row">
-                      <input type="checkbox" name="singleCheckbox2" id="fe47024">
-                      <label class="checkbox-aligned elq-item-label" for="fe47024">Biotech &amp; Pharma
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement13" class="elq-field-style form-element-layout row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div>
-                    <div class="single-checkbox-row row">
-                      <input type="checkbox" name="singleCheckbox3" id="fe47025">
-                      <label class="checkbox-aligned elq-item-label" for="fe47025">Education
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement14" class="elq-field-style form-element-layout row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div>
-                    <div class="single-checkbox-row row">
-                      <input type="checkbox" name="singleCheckbox4" id="fe47026">
-                      <label class="checkbox-aligned elq-item-label" for="fe47026">Electronics
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement15" class="elq-field-style form-element-layout row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div>
-                    <div class="single-checkbox-row row">
-                      <input type="checkbox" name="singleCheckbox5" id="fe47027">
-                      <label class="checkbox-aligned elq-item-label" for="fe47027">Energy &amp; Transportation
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-6 col-xs-12">
-          <div id="formElement16" class="elq-field-style form-element-layout row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div>
-                    <div class="single-checkbox-row row">
-                      <input type="checkbox" name="singleCheckbox6" id="fe47028">
-                      <label class="checkbox-aligned elq-item-label" for="fe47028">Materials Science
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="grid-layout-col">
-        <div class="layout-col col-sm-12 col-xs-12">
-          <div id="formElement17" class="elq-field-style form-element-layout row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-xs-12">
                   <div>
                     <div class="single-checkbox-row row">
                       <input type="checkbox" name="optin" id="fe47069">
-                      <label class="checkbox-aligned elq-item-label" for="fe47069">I would like to receive more information on products and services from the American Chemical Society
+                      <label class="checkbox-aligned elq-item-label" for="fe47069">I would like to receive more information on products and services from the American Chemical Society (ACS Publications) via email, in accordance with the ACS Privacy Policy. 
                       </label>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="form-element-instruction"> (ACS Publications) via email, including Industry Insiders, in accordance with the ACS Privacy Policy.
               </div>
             </div>
           </div>
@@ -1091,14 +947,14 @@
         <div class="layout-col col-sm-12 col-xs-12">
           <div class="elq-field-style form-element-layout row">
             <div style="text-align:left;" class="col-sm-12 col-xs-12">
-              <label class="elq-label">customHoneypot
+              <label class="elq-label">address1
               </label>
             </div>
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="field-control-wrapper">
-                    <input type="text" value="" tabindex="-1" autocomplete="off" style="width:100%;" class="elq-item-input" name="customHoneypot" id="fe47070">
+                    <input type="text" value="" tabindex="-1" autocomplete="off" style="width:100%;" class="elq-item-input" name="address1" id="fe47386">
                   </div>
                 </div>
               </div>
@@ -1110,7 +966,7 @@
     <div class="row">
       <div class="grid-layout-col">
         <div class="layout-col col-sm-12 col-xs-12">
-          <div id="formElement18" class="elq-field-style form-element-layout row">
+          <div id="formElement11" class="elq-field-style form-element-layout row">
             <div class="col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-xs-12">
@@ -1124,8 +980,21 @@
         </div>
       </div>
     </div>
-    <input type="hidden" name="src" id="fe47029" value="CHAN 0425 CXW Corp and Gov't lead form for Solutions">
+    <input type="hidden" name="src" id="fe47029" value="CHAN 0425 CXW Corp and Gov't lead form for Solutions (2655)">
+    <input type="hidden" name="LSO" id="fe47373" value="CHAN 0425 CXW Corp and Gov't lead form for Solutions (2655)">
+    <input type="hidden" name="LSMR" id="fe47374" value="CHAN 0425 CXW Corp and Gov't lead form for Solutions (2655)">
     <input type="hidden" name="orgid" id="fe47030" value="">
+    <input type="hidden" name="hidden_utm_content" id="fe47375" value="">
+    <input type="hidden" name="hidden_utm_id" id="fe47376" value="">
+    <input type="hidden" name="hidden_utm_campaign" id="fe47377" value="">
+    <input type="hidden" name="hidden_utm_medium" id="fe47378" value="">
+    <input type="hidden" name="hidden_utm_source" id="fe47379" value="">
+    <input type="hidden" name="hidden_utm_term" id="fe47380" value="">
+    <input type="hidden" name="hidden_IP" id="fe47381" value="">
+    <input type="hidden" name="hidden_referring_URL" id="fe47382" value="">
+    <input type="hidden" name="utmDetails" id="fe47383" value="">
+    <input type="hidden" name="elqaid" id="fe47384" value="">
+    <input type="hidden" name="elqcampaignid" id="fe47385" value="">
   </div>
 </form>
 <script type="text/javascript" src="https://img.en25.com/i/livevalidation_standalone.compressed.js">
@@ -1316,110 +1185,11 @@
     }
     , failureMessage: "Value must not contain any URL's"}
              );
-  fe47033.add(Validate.Presence, {
-    failureMessage:"This field is required"}
-             );
   fe47033.add(Validate.Length, {
     tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 8, maximum: 1000}
              );
-  var dom11 = document.querySelector('#form2655 #fe47023');
-  var fe47023 = new LiveValidation(dom11, {
-    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                  );
-  fe47023.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-    }
-    , failureMessage: "Value must not contain any URL's"}
-             );
-  fe47023.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(<([^>]+)>)/ig);
-    }
-    , failureMessage: "Value must not contain any HTML"}
-             );
-  var dom12 = document.querySelector('#form2655 #fe47024');
-  var fe47024 = new LiveValidation(dom12, {
-    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                  );
-  fe47024.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-    }
-    , failureMessage: "Value must not contain any URL's"}
-             );
-  fe47024.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(<([^>]+)>)/ig);
-    }
-    , failureMessage: "Value must not contain any HTML"}
-             );
-  var dom13 = document.querySelector('#form2655 #fe47025');
-  var fe47025 = new LiveValidation(dom13, {
-    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                  );
-  fe47025.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-    }
-    , failureMessage: "Value must not contain any URL's"}
-             );
-  fe47025.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(<([^>]+)>)/ig);
-    }
-    , failureMessage: "Value must not contain any HTML"}
-             );
-  var dom14 = document.querySelector('#form2655 #fe47026');
-  var fe47026 = new LiveValidation(dom14, {
-    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                  );
-  fe47026.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-    }
-    , failureMessage: "Value must not contain any URL's"}
-             );
-  fe47026.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(<([^>]+)>)/ig);
-    }
-    , failureMessage: "Value must not contain any HTML"}
-             );
-  var dom15 = document.querySelector('#form2655 #fe47027');
-  var fe47027 = new LiveValidation(dom15, {
-    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                  );
-  fe47027.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-    }
-    , failureMessage: "Value must not contain any URL's"}
-             );
-  fe47027.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(<([^>]+)>)/ig);
-    }
-    , failureMessage: "Value must not contain any HTML"}
-             );
-  var dom16 = document.querySelector('#form2655 #fe47028');
-  var fe47028 = new LiveValidation(dom16, {
-    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
-                                  );
-  fe47028.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
-    }
-    , failureMessage: "Value must not contain any URL's"}
-             );
-  fe47028.add(Validate.Custom, {
-    against: function(value) {
-      return !value.match(/(<([^>]+)>)/ig);
-    }
-    , failureMessage: "Value must not contain any HTML"}
-             );
-  var dom17 = document.querySelector('#form2655 #fe47069');
-  var fe47069 = new LiveValidation(dom17, {
+  var dom10 = document.querySelector('#form2655 #fe47069');
+  var fe47069 = new LiveValidation(dom10, {
     validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
                                   );
   fe47069.add(Validate.Custom, {
@@ -1478,3 +1248,67 @@
     lastFormField.style.display = "none";
   }
 </script>
+
+<script type="text/javascript">
+    //track hidden fields-sales leads
+    var defaultHiddenFieldNameValue = "";
+
+    function getQueryStringValue(field, url) {
+        var href = url ? url : window.location.href;
+        href = decodeURIComponent(href);
+        var reg = new RegExp('[?&]' + field + '=([^&#]*)', 'i');
+        var string = reg.exec(href);
+        return string ? string[1] : defaultHiddenFieldNameValue;
+    }
+
+    function getAndSetHiddenFields() {
+        console.log("Script is running...");
+
+        var elqForm = document.forms["CHAN0425CXWCorpandGovtleadformforSolutions"];
+        if (!elqForm) {
+            console.error("Form not found!");
+            return;
+        }
+
+        // List of hidden fields to track
+        var fields = [
+            'hidden_utm_content',
+            'hidden_utm_id',
+            'hidden_utm_campaign',
+            'hidden_utm_medium',
+            'hidden_utm_source',
+            'hidden_utm_term',
+            'hidden_IP',
+            'orgid',
+            'hidden_referring_URL',
+            'src',
+            'LSO',
+            'LSMR',
+            'utmDetails',
+            'elqaid',
+            'elqcampaignid'
+        ];
+
+        fields.forEach(function(field) {
+            var value = getQueryStringValue(field);
+            if (elqForm.elements[field]) {
+                elqForm.elements[field].value = value;
+                console.log(field + ": " + value);
+            } else {
+                console.warn("Field " + field + " not found in the form.");
+            }
+        });
+
+        // Log the final values of all hidden fields
+        console.log("Final values of hidden fields:");
+        fields.forEach(function(field) {
+            if (elqForm.elements[field]) {
+                console.log(field + ": " + elqForm.elements[field].value);
+            }
+        });
+    }
+
+    window.onload = getAndSetHiddenFields;
+</script>
+
+
